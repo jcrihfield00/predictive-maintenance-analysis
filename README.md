@@ -87,3 +87,6 @@ By identifying machines at elevated risk of failure, maintenance teams can sched
 - Cross-validation
 - Failure-type classification
 - Real-time prediction pipeline
+
+
+EMBED IMAGES
