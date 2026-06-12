@@ -21,6 +21,10 @@ Target Variable:
 - 0 = No Failure
 - 1 = Failure
 
+## Dataset Source
+
+This project uses Machine Predictive Maintenance Classification, a synthetic manufacturing dataset designed for predictive maintenance and machine failure analysis. It is available on Kaggle: https://www.kaggle.com/datasets/shivamb/machine-predictive-maintenance-classification
+
 ## Tools Used
 
 - Python
@@ -39,6 +43,10 @@ Key findings:
 - Failed machines generally exhibited higher tool wear than non-failed machines.
 - Rotational speed demonstrated low linear correlation but high importance within the Random Forest model, suggesting non-linear relationships.
 
+### Failure Distribution
+
+![Failure Distribution](images/failure_count_chart.png)
+
 ### Tool Wear vs Failure
 
 ![Tool Wear Boxplot](images/tool_wear_boxplot.png)
@@ -52,7 +60,7 @@ Key findings:
 Model:
 - Random Forest Classifier
 
-Performance:
+Model Performance:
 
 - Accuracy: 98%
 - Precision: 82%
@@ -69,7 +77,9 @@ Performance:
 
 ## Business Impact
 
-A predictive maintenance model can help maintenance teams identify at-risk equipment before failure occurs, reducing downtime and improving operational efficiency.
+Unplanned equipment downtime is expensive in manufacturing environments.
+
+By identifying machines at elevated risk of failure, maintenance teams can schedule inspections and repairs proactively, reducing downtime, improving equipment availability, and lowering maintenance costs.
 
 ## Future Improvements
 
@@ -77,6 +87,3 @@ A predictive maintenance model can help maintenance teams identify at-risk equip
 - Cross-validation
 - Failure-type classification
 - Real-time prediction pipeline
-
-
-EMBED IMAGES
