@@ -77,6 +77,3 @@ A predictive maintenance model can help maintenance teams identify at-risk equip
 - Cross-validation
 - Failure-type classification
 - Real-time prediction pipeline
-
-
-EMBED IMAGES
